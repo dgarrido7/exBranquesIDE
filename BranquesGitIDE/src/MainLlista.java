@@ -10,7 +10,7 @@ public class MainLlista {
 		double num=7;
 		boolean sortit=false;
          
-		for(int i=0; i<50;i++) {
+		for(int i=0; i<1000000;i++) {
 			double hola=Math.random()*(50-1)+1;
 			Valors.add((int)hola);
 		}

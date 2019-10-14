@@ -10,7 +10,7 @@ public class MainLlista {
 		double num=7;
 		boolean sortit=false;
          
-		for(int i=0; i<50;i++) {
+		for(int i=0; i<700000;i++) {
 			double hola=Math.random()*(50-1)+1;
 			Valors.add((int)hola);
 		}
@@ -20,7 +20,7 @@ public class MainLlista {
 			
 		  for(int z=0;z<Valors.size();z++) {
 			  System.out.println(Valors.get(z));
-					if(num==Valors.get(z)) {
+					if(num==Valors.get(z) && Valors.get(z)%2==0) {
 						System.out.println(Valors.get(z));
 						sortit=true;
 					}

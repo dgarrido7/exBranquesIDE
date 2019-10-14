@@ -15,6 +15,7 @@ public class MainLlista {
 			Valors.add((int)hola);
 		}
 		
+		
 		  long TInicio, TFin, tiempo; //Variables para determinar el tiempo de ejecución
 		  TInicio = System.currentTimeMillis();
 			
